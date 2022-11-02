@@ -1,0 +1,30 @@
+<div class="container">
+    <h1>Pagina de registro</h1>
+
+    <form id="registerForm">
+        <label class="form-label">Nombre</label>
+        <input name="name" class="form-control" required>
+        <label class="form-label">Email</label>
+        <input name="email" class="form-control" required>
+        <label class="form-label">Dirrecion</label>
+        <input name="address" class="form-control" required>
+        <label class="form-label">Edad</label>
+        <input name="age" class="form-control" required>
+        <label class="form-label">Telefono</label>
+        <input name="phoneNumber" class="form-control" required>
+        <label class="form-label">Avatar-url</label>
+        <input id="file" type="file" name="imageUrl" class="form-control" required>
+        <label class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" required>
+        <label class="form-label">Confirme Password</label>
+        <input type="password" name="passwordCheck" class="form-control" required>
+        <br>
+        <input type="submit" class="btn btn-primary">
+    </form>
+    <br>
+    <a href="/login">
+        <input type=" button" class="btn btn-primary btn-sm" value="Ir a Login">
+    </a>
+</div>
+
+<script src="/js/register.js"></script>

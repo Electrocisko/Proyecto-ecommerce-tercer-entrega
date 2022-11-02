@@ -1,0 +1,40 @@
+<h1>Administre los productos</h1>
+
+<h1>Modifique producto</h1>
+<div class="container">
+  <label class="form-label">Producto ID</label>
+      <input id="productId" name="productId" class="form-control" type="text">
+      <br>
+      <button id="modificar" >Enviar</button>
+
+      <br>
+
+   <form id="productForm">
+      <label class="form-label">Producto</label>
+      <input id="name" name="name" class="form-control">
+
+      <label class="form-label">Descripcion</label>
+      <input id="description" name="description" class="form-control">
+
+      <label class="form-label">Codigo</label>
+      <input id="code" name="code" class="form-control">
+
+    
+      <label class="form-label">Precio</label>
+      <input id="price" name="price" class="form-control">
+
+      <label class="form-label">Stock</label>
+      <input id="stock" name="stock" class="form-control">
+
+      <br>
+      <input id="thumbnail" type="file" name="thumbnail" class="form-control">
+      <br>
+      <input type="submit" class="btn btn-success">
+   </form>
+</div>
+<br>
+<a href="/api/products" class="fs-3"> Ver Productos</a>
+<br>
+
+
+<script src="js/modif-products.js"></script>

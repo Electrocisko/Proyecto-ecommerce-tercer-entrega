@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Max Verstappen",
+		"email": "maxverstappen@correo.com",
+		"password": "$2b$10$pPH4DrJuFzc/Gjz//LR9N.lbS9QPNKF8.DnhdgwflfRvwYWTusVeq",
+		"address": "Tilburg",
+		"age": "25",
+		"phoneNumber": "1",
+		"imageUrl": "1666629948283-2022-10-03.png",
+		"_id": "vW5f9tPJWl",
+		"admin": false
+	},
+	{
+		"name": "Charles Leclerc",
+		"email": "lecler@correo.com",
+		"password": "$2b$10$ojz3.MMtsVC2BDecZiVIVOiIKVK70tfXEU9N5Guj8Uu9jcEl3pO5G",
+		"address": "Monaco x",
+		"age": "25",
+		"phoneNumber": "1",
+		"imageUrl": "1666630007964-2022-10-03 (6).png",
+		"_id": "cP0vGGqrjD",
+		"admin": false
+	},
+	{
+		"name": "Checo Perez",
+		"email": "checo@correo.com",
+		"password": "$2b$10$P2xClf8qAVbCSDxvPJ.25eC6kq3noi44iqAlifN64VG2sD0HuQkBe",
+		"address": "Av Rivadavia 2020 CABA",
+		"age": "32",
+		"phoneNumber": "2322222",
+		"imageUrl": "1666630062657-2022-10-03 (1).png",
+		"_id": "p5J8Pk6Fpp",
+		"admin": false
+	},
+	{
+		"name": "Lewis Hamilton",
+		"email": "luishamilton@correo.com",
+		"password": "$2b$10$5x3zh7i.QrqS0c6TlaxJj.uGxH/ZcjM2yJkRtsk9YPup2fo6a00Mm",
+		"address": "Av San Martin 2277 CABA",
+		"age": "37",
+		"phoneNumber": "1",
+		"imageUrl": "1666630144187-2022-10-03.png",
+		"_id": "pwEP4E_PWV",
+		"admin": false
+	}
+]

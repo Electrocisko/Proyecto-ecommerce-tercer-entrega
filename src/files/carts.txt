@@ -1,0 +1,32 @@
+[
+	{
+		"products": [],
+		"timestamp": 1661980723908,
+		"id": "itsGVgn-gj"
+	},
+	{
+		"products": [
+			{
+				"product": "ZwFLtYtNBE",
+				"quantity": 1
+			},
+			{
+				"product": "6zs5zcHBer",
+				"quantity": 1
+			},
+			{
+				"product": "5RuviHPkUZ",
+				"quantity": 2
+			}
+		],
+		"timestamp": 1661980725666,
+		"id": "Np-hZcU93o"
+	},
+	{
+		"products": [],
+		"userId": "p5J8Pk6Fpp",
+		"timestamp": 1666984834721,
+		"id": "CxkMlXvjGW",
+		"_id": "KmGRuulkNF"
+	}
+]

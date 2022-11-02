@@ -1,0 +1,60 @@
+<main>
+  <form class="row g-3">
+    <div class="col-auto">
+      <div class="entry">
+        {{#unless user.imageUrl}}
+        <img src="/img/avatar-generico.png" width="70">
+        {{/unless}}
+      </div>
+      <div>
+        <img src="/img/{{user.imageUrl}}" width="70">
+      </div>
+      <h3>Welcome {{user.name}} <a href="/api/sessions/logout" alt="Avatar">
+          <input type=" button" class="btn btn-primary btn-sm" value="Cerrar Sesión">
+        </a>
+
+        <div class="entry">
+          {{#if user.admin}}
+          <a href="/enterproducts" alt="Avatar">
+            <input type=" button" class="btn btn-primary btn-sm" value="Ingresar Productos">
+          </a>
+          {{/if}}
+        </div>
+
+
+        {{!-- I get user.id and user.cartId from the cookie and then i use it in menu.js --}}
+        {{!-- That's why I hide them, I don't want them to be seen in the render only i need te value--}}
+        <p id="idUser" hidden>{{user.id}}</p>
+        <p id="idCart" hidden>{{user.cartId}}</p>
+      </h3>
+    </div>
+  </form>
+
+  <button class="btn btn-primary" id="toCart">Ver Carrito</button>
+  <p id="cont"></p>
+
+
+  <div class="container">
+    <hr>
+    <div class="row" id="cards"></div>
+    <hr>
+  </div>
+</main>
+
+<template id="template-card">
+  <div class="col-12 mb-2 col-md-3">
+    <div class="card">
+      <img src="" alt=""class="img-fluid" >
+      <div class="card-body">
+        <h5>Titulo</h5>
+        <p>precio</p>
+        <p>En stock:  <span id="stock" >stock</span></p>
+        <button class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<script src="/js/menu.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Amplificador 5.1",
+		"description": "Amplificador HDMI",
+		"code": "AMP",
+		"price": "450",
+		"stock": "3",
+		"thumbnail": "1661980544324-foto generico.webp",
+		"timestamp": 1661980544326,
+		"id": "ZwFLtYtNBE"
+	},
+	{
+		"name": "Amplificador Atmos 7.2",
+		"description": "Amplificador HDMI",
+		"code": "AMPAT",
+		"price": "450",
+		"stock": "3",
+		"thumbnail": "1661980567221-foto generico.webp",
+		"timestamp": 1661980567221,
+		"id": "N8-eogm-XA"
+	},
+	{
+		"name": "Bandeja giradisco",
+		"description": "Tocadisco",
+		"code": "PICKUP",
+		"price": "450",
+		"stock": "3",
+		"thumbnail": "1661980669018-foto generico.webp",
+		"timestamp": 1661980669348,
+		"id": "5RuviHPkUZ"
+	},
+	{
+		"name": "Media Player",
+		"description": "Reproductor de audio streaming",
+		"code": "MPLAY",
+		"price": "450",
+		"stock": "3",
+		"thumbnail": "1662026277298-Zen-Air-Dac.webp",
+		"timestamp": 1661980613382,
+		"id": "6zs5zcHBer"
+	}
+]
